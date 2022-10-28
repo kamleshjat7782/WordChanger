@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.home h1{
+    text-align: center;
+    padding-top: 10px;
+}
+.text-area{
+    text-align: center;
+    padding: 20px;
+}
+.text-area textarea{
+    border: none;
+    border: 2px solid black;
+    background-color: gainsboro;
+
+}
+.text-area textarea::placeholder{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 135px;
+}
+.text{
+    border: 2px solid black;
+    width: 50%;
+    height: 40vh;
+    padding: 5px;
+
+}
+.button{
+    text-align: center;
+}
+.button button{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: blue;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: whitesmoke;
+}
+button:hover{
+    background-color: blueviolet;
+}
+.summary p{
+    text-align: center;
+    padding: 20px;
+}
+.summary h3{
+    text-align: center;
+    padding: 20px;
+}
