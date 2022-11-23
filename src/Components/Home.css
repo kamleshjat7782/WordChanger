@@ -36,13 +36,13 @@
     padding: 10px;
     margin: 5px;
     border-radius: 10px;
-    background-color: blue;
+    background-color: black;
     text-transform: uppercase;
     font-weight: 500;
     color: whitesmoke;
 }
 button:hover{
-    background-color: blueviolet;
+    color: blueviolet;
 }
 .summary p{
     text-align: center;

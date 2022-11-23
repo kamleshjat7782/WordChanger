@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 .navbar{
+    position: fixed;
     height: 8vh;
     width: 100%;
     display: flex;

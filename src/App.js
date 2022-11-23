@@ -10,15 +10,17 @@ import Alert from './Components/Alert';
 function App() {
   return (
    <BrowserRouter>
+   <Navbar />
+   <main>
+
    <Routes>
-    <Route  exact path='/' element = {<Navbar/>}>
       <Route index  element = {<Home/>} />
       <Route exact path='/about'  element = {<About/>} />
       <Route exact path='/contact'  element = {<Contact/>} />
       <Route exact path='/Alert'  element = {<Alert/>} />
 
-    </Route>
    </Routes>
+   </main>
    <Footer />
    </BrowserRouter>
   );
